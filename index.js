@@ -1,5 +1,5 @@
 import dotenv from "dotenv";
-dotenv.config();
+dotenv.config({});
 import express from "express";
 
 
@@ -25,7 +25,7 @@ const startServer = async () => {
     app.listen(4545, () => {
       console.log("✅ Server Started At 4545");
     });
-   
+ 
   } catch (error) {
     console.log(error);
   }

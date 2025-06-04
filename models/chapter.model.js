@@ -27,7 +27,7 @@ const ChapterSchema = new Schema({
     enum: ["Not Started", "In Progress", "Completed"],
     required: true,
   },
-  isWeakChapter: { type: Boolean, default: false },
+  isWeakChapter: { type: Boolean, default: false ,required:true},
 });
 
 export const chapterModel = mongoose.model("Chapter", ChapterSchema);
