@@ -1,0 +1,26 @@
+{
+  "name": "mathongobackend",
+  "version": "1.0.0",
+  "description": "Node.js backend using JavaScript",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.5.0",
+    "mongodb": "^6.16.0",
+    "mongoose": "^8.15.1",
+    "rate-limit-redis": "^4.2.1",
+    "redis": "^5.5.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
